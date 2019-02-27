@@ -2,89 +2,51 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>郑志强的个人简介</title>
+	<title>MyBlog</title>
+	<link rel="stylesheet" href="MyBlog.css">
 </head>
 <body>
-	<div>
-		<img src="a.jpg" style="width: 200px">
-		<ul>
-			<li>联系方式</li>
-			<a href="http://www.mrlayfolk.club/" target="_blank">我的主页</a>
-			<a href="https://github.com/zhengcixi" target="_blank">我的Github</a>
-			<a href="http://weibo.com/zhengcixi" target="_blank">我的微博</a>
-		</ul>
-		<ul type="discircle">
-			<li><strong>个人信息</strong></li>
-			<ul>
-				<li>邮箱：18328020385@163.com</li>	
-				<li>户籍：广安</li>
-				<li>身高：170cm</li>
-				<li>家庭地址：四川省武胜县</li>
-			</ul>
-			<li><strong>求职意向</strong></li>
-			<ul>
-				<li>个人标签：年轻&nbsp;自信&nbsp;毅力&nbsp;恒心&nbsp;机会&nbsp;自学&nbsp;</li>
-				<li>期望薪资：6-8K</li>
-				<li>职位：嵌入式软件工程师</li>
-				<li>工作类型：全职</li>
-				<li>自我评价：我是一名成都大学 2018 届通信工程专业毕业生，在校期间学习了电路原理、模拟电子电路、数字电子电路、信号与系统、数字信号处理、通信原理、计算机网络技术等必修课程，选修了单片机原理、计算机基础等课程。个人主要对单片机软件编程、计算机网络有浓厚兴趣，希望找到一个从事嵌入式软件相关的工作。</li>
-			</ul>
-			<li><strong>工作经验</strong></li>
-			<ul>
-				<li>工作时间：2018/4-2019/2</li>
-				<li>公司名称：成都卓源网络科技有限公司</li>
-				<li>公司规模：少于50人</li>
-				<li>职位：工程师助理</li>
-				<li>工作描述：</li>
-				<ol type="1">
-					<li>协助部门经理进行项目管理</li>
-					<li>协助部门经理进行项目方案的编写</li>
-					<li>协助部门经理编写合同、投标方案的技术部门</li>
-					<li>协助部门经理编写产品宣传手册、用户手册等</li>
-				</ol>
-			</ul>
-			<li><strong>项目经验</strong></li>
-			<ul>
-				<li>项目名称：空气质量检测系统</li>
-				<li>项目周期：2017/12-2018/5</li>
-				<li>项目描述：本项目为基于 STM32 的空气质量检测系统，该系统能够实时检测温湿度、空气中的 CO 浓度以及环境颗粒物浓度，很实用于空气污染日益严重的今天。另外，该系统还具有 Wi-Fi 模块，可实时通过无线网络将数据传输到电脑上进行显示，当污染物浓度超过对人体有害的浓度时，系统将在上位机上进行报警。</li>
-				<li>责任描述：</li>
-				<ol>
-					<li>嵌入式底层各个模块驱动编写，主要包括 DHT11 传感器驱动、DS18B20 传感器驱动、PMS5003 模块驱动、MQ-7 模块驱动、LCD1602 模块驱动、ESP8266 WiFi 模块驱动等；</li>
-					<li>上位机编写，使用C#程序设计语言进行套接字（Socket）编程。</li>
-					<li>实物展示：</li>
-					上位机：<img src="上位机.png" style="width: 200px"><br>
-					下位机：<img src="下位机.jpg" style="width: 200px">
-				</ol>
-			</ul>
-			<li><strong>教育经历</strong></li>
-			<ul>
-				<li>在校时间：2014/9-2018/6</li>
-				<li>学校名称：成都大学</li>
-				<li>学历/专业：本科/通信工程</li>
-				<li>专业描述：本专业学习了模拟电子电路、数字电子电路、通信技术、计算机网络技术、单片机原理等的专业知识。自学基本掌握了操作系统，数据结构的相关知识。本科期间学习了单片机编程、嵌入式编程、计算机网络等相关知识，对于嵌入式软件设计和计算机网络具有很大的兴趣。</li>
-			</ul>
-			<li><strong>在校情况</strong></li>
-			<ul>
-				<li>校内荣誉：</li>
-				<ul>
-					<li>2016/11&nbsp;&nbsp;校级三等奖学金（三等）</li>
-					<li>2016/8&nbsp;&nbsp;四川省TI杯大学生电子设计竞赛三等奖</li>
-				</ul>
-			</ul>
-			<li><strong>技能特长</strong></li>
-			<ul>技能语言
-				<li>办公软件：熟练</li>
-				<li>C：熟练</li>
-				<li>英语：熟练</li>
-			</ul>
-			<ul>证书
-				<li>2017/12&nbsp;&nbsp;大学英语六级</li>
-				<li>2017/6&nbsp;&nbsp;大学英语四级</li>
-				<li>2016/9&nbsp;&nbsp;全国计算机等级三级</li>
-				<li>2015/9&nbsp;&nbsp;全国计算机等级二级</li>
-			</ul>
-		</ul>
+	<!-- home page -->
+	<div id="home-page">
+		<!-- paragraph one: profile phote+个人描述 -->
+		<div class="paragraph">
+			<div class="profile-photo">
+				<img src="chaoren.jpg" alt="" class="title-img">
+			</div>
+			<div class="title-word">
+				<p class="title-font">郑志强</p>
+				<p class="slogan-font">他说，有志者，事竟成，他终究想要成为一个成功的人。</p>
+			</div>
+			<div class="contact-info">
+				<a href="http://www.mrlayfolk.club/" target="_blank" class="tag-font">我的主页</a>
+				<a href="https://github.com/zhengcixi" target="_blank" class="tag-font">我的Github</a>
+				<a href="http://weibo.com/zhengcixi" target="_blank" class="tag-font">我的微博</a>
+				<a href="https://github.com/zhengcixi/personal-resume" target="_blank" class="tag-font">我的个人简历</a>
+			</div>
+		</div>
+
+		<!-- paragraph two: 空气质量检测系统上位机描述 -->
+		<div class="paragraph">
+			<div class="para-content">
+				<a href="https://github.com/zhengcixi/air-detection-sever" class="news-title">空气质量检测系统上位机</a>
+				<div class="news">
+					上位机系统用作显示部分，其主要功能是收集下位机传输过来的数据，并进行实时显示。它们相互之间使用TCP/IP协议进行网络通信。上位机使用C#程序设计语言进行套接字编程。
+				</div>
+				<a href="https://github.com/zhengcixi/air-detection-sever" style="font-size: 14px">去Github看看</a>
+			</div>
+		</div>
+
+		<!-- paragraph tnree: 空气质量检测系统下位机描述 -->
+		<div class="paragraph">
+			<div class="para-content">
+				<a href="https://github.com/zhengcixi/air-detection-client" class="news-title">空气质量检测系统下位机</a>
+				<div class="news">
+					下位机软件使用C语言进行编程，将其分为若干个功能子模块。程序模块大致可以分为DS18B20温度传感器驱动模块、DHT11温湿度传感器驱动模块、PMS5003颗粒物浓度传感器模块、MQ-7一氧化碳气体传感器驱动模块、LCD1602液晶屏显示驱动模块以及ESP8266 Wi-Fi数据传输驱动模块。
+				</div>
+				<a href="https://github.com/zhengcixi/air-detection-client" style="font-size: 14px">去Github看看</a>
+			</div>
+		</div>
+
 	</div>
 </body>
 </html>
