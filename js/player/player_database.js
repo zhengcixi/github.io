@@ -4,7 +4,7 @@ var myPlaylist = new jPlayerPlaylist({
 		cssSelectorAncestor: "#jp_container_N"
 	},
      [
-		 { title: "You", artist: "Approaching Nirvana", mp3:"mp3/Approaching Nirvana - You.mp3", poster: "img/You.jpg"},
+		 { title: "You", artist: "Approaching Nirvana", mp3:"mp3/Approaching Nirvana - You.mp3", poster: "img/YOU.jpg"},
 		 { title: "梦中的婚礼", artist: "赵海洋", mp3:"mp3/赵海洋 - 梦中的婚礼 - 钢琴版纯音乐.mp3", poster: "img/dream.jpg"},
 		 { title: "潮鳴", artist: "折戸伸治", mp3:"mp3/潮鳴.mp3", poster: "img/chaojiu.jpg"},
 		 { title: "Fire", artist: "Said The Sky", mp3:"http://music.163.com/song/media/outer/url?id=435289279.mp3", poster: "http://p1.music.126.net/tg2zke_mrqwuOPlEIEUjGg==/18294773975127592.jpg?param=130y130"}
