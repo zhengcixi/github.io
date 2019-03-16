@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>郑志强</title>
 	<link rel="stylesheet" href="css/MyBlog.css">
 	<link href="css/player.css" rel="stylesheet" type="text/css" />
+	<script src="js/background/jquery.min.js"></script>
+	<script src="js/background/ban.js"></script>
 </head>
 <body>
 	<!-- home page -->
@@ -198,7 +202,7 @@
 			</div>
 			<div class="jp-playlist">
 				<div class="jp-playlist-box" style="height: 80px;">
-					<ul style="height: 1000px; display: block; top: 0px;">
+					<ul style="height: 1000px; display: 	block; top: 0px;">
 						<li>
 							<div>
 								<a href="javascript:;" class="jp-playlist-item-remove">×</a>
@@ -246,11 +250,14 @@
 	</div>
 	<!-- 左侧播放器 结束-->
 
-	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- 背景特效 -->
+	<canvas></canvas>
+
+	<script type="text/javascript" src="js/player/jquery.min.js"></script>
 	<!--播放器js-->
-	<script src="js/player.js"></script>
-	<script src="js/playlist.js"></script>
-	<script src="js/player_database.js"></script>
+	<script src="js/player/player.js"></script>
+	<script src="js/player/playlist.js"></script>
+	<script src="js/player/player_database.js"></script>
 	<!--播放器js-->
 
 </body>
